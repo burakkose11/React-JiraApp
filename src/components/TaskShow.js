@@ -1,13 +1,13 @@
 function TaskShow({ task }) {
   return (
-    <div>
-      <h3>Göreviniz</h3>
+    <div className="taskShowDiv">
+      <h3 className="taskTitle">Göreviniz</h3>
       <p>{task.title}</p>
-      <h3>Yapılacaklar</h3>
+      <h3 className="taskTitle">Yapılacaklar</h3>
       <p>{task.taskDesc} </p>
       <div>
-        <button>Sil</button>
-        <button>Güncelle</button>
+        <button className="taskDeleteButton">Sil</button>
+        <button className="taskEditButton">Güncelle</button>
       </div>
     </div>
   );

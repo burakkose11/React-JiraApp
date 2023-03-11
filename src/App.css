@@ -19,7 +19,7 @@
 
 .taskInput {
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid green;
   border-radius: 10px;
 }
 
@@ -31,4 +31,64 @@
   color: white;
   border: 1px solid green;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.taskButton:hover {
+  font-weight: 600;
+}
+
+.taskListDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.taskShowDiv {
+  width: 350px;
+  border: 2px solid green;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.taskTitle{
+  margin-bottom: 5px;
+}
+
+.taskDeleteButton {
+  padding: 5px;
+  font-size: 15px;
+  width: 60px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.taskDeleteButton:hover {
+  background-color: white;
+  color: red;
+}
+
+.taskEditButton {
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  border: 2px solid blue;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.taskEditButton:hover {
+  background-color: white;
+  color: blue;
 }
