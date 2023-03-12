@@ -8,6 +8,10 @@
   width: 450px;
 }
 
+.taskUpdate{
+  width: 100%;  
+}
+
 .taskForm {
   display: flex;
   flex-direction: column;
@@ -32,6 +36,10 @@
   border: 1px solid green;
   font-size: 20px;
   cursor: pointer;
+}
+
+.updateButton{
+  background-color: blueviolet;
 }
 
 .taskButton:hover {
@@ -92,3 +100,5 @@
   background-color: white;
   color: blue;
 }
+
+
