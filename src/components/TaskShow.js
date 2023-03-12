@@ -1,4 +1,8 @@
-function TaskShow({ task }) {
+function TaskShow({ task, onDelete }) {
+  const handleDeleteClick = () => {
+    onDelete(task.id);
+  };
+
   return (
     <div className="taskShowDiv">
       <h3 className="taskTitle">Göreviniz</h3>
@@ -6,7 +10,9 @@ function TaskShow({ task }) {
       <h3 className="taskTitle">Yapılacaklar</h3>
       <p>{task.taskDesc} </p>
       <div>
-        <button className="taskDeleteButton">Sil</button>
+        <button className="taskDeleteButton" onClick={handleDeleteClick}>
+          Sil
+        </button>
         <button className="taskEditButton">Güncelle</button>
       </div>
     </div>
