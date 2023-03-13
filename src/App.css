@@ -8,8 +8,8 @@
   width: 450px;
 }
 
-.taskUpdate{
-  width: 100%;  
+.taskUpdate {
+  width: 100%;
 }
 
 .taskForm {
@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 
-.updateButton{
+.updateButton {
   background-color: blueviolet;
 }
 
@@ -100,5 +100,3 @@
   background-color: white;
   color: blue;
 }
-
-
